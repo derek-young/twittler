@@ -1,0 +1,71 @@
+html {
+    /*height: 100%;*/
+}
+
+body {
+  /*height: 100%;*/
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(to bottom, #1da1f2, #53CBF1, #87E0FD);
+  display: block;
+  overflow: auto;
+}
+
+h2 {
+  padding-left: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+}
+a:hover   {
+  text-decoration: underline;
+}
+a:active  {}
+
+
+.container {
+  width: 900px;
+  padding-bottom: 20px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.header {
+  border-top: 2px solid #53CBF1;
+  width: 600px;
+  margin: 0 auto 15px auto;
+}
+
+.container dl {
+  width: 600px;
+  margin: auto;
+}
+
+.container dt, .container dd {
+  padding: 0 5px;
+}
+
+.container dt {
+  background-color: #53CBF1;
+  padding: 10px 20px 0 5px;
+  border-radius: 10px 10px 0 0;
+}
+
+/* Description - Date Stamp */
+.container dd {
+  background: linear-gradient(to bottom, #53CBF1, #87E0FD);
+  margin-bottom: 10px;
+  margin-left: 0;
+  padding: 0 0 10px 20px;
+  border-radius: 0 0 10px 10px;
+  font-size: 0.75em;
+}
+
+.hidden {
+  display: none;
+}
